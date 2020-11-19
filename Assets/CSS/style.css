@@ -58,11 +58,23 @@ footer {
   bottom: 10px;
   left: 10px;
   right: -40px;
-  text-align: center;
   font-weight: bold;
   background-color: #b1a296;
   color: #5d5c61;
 }
+#footerBody {
+  padding: 5px;
+}
+
+#copyright {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#phoneNumHead, #phoneNum, #emailHead, #email {
+  text-align: center;
+}
+
 
 @media screen and (max-width: 400px) {
   .row {
