@@ -40,8 +40,13 @@ padding-left: 50px;
 padding-top: 20px;
 }
 
+#firstCard {
+  margin: 15px;
+}
+
 #secondCard {
-  left: 12px;
+  margin: 15px;
+  left: 15px;
 }
 
 #passGen {
@@ -89,15 +94,9 @@ footer {
   width: 100%;
   padding: 10px;
   margin: 10px;
-  bottom: 10px;
-  left: 10px;
-  right: -40px;
   font-weight: bold;
   background-color: #b1a296;
   color: #5d5c61;
-}
-#footerBody {
-  padding: 5px;
 }
 
 #copyright {
@@ -105,9 +104,10 @@ footer {
   padding-top: 20px;
 }
 
-#phoneNumHead, #phoneNum, #emailHead, #email {
+#phoneNumHead, #emailHead, #phoneNum, #email {
   text-align: center;
 }
+
 
 
 @media screen and (max-width: 400px) {
@@ -139,4 +139,40 @@ footer {
       padding: 10px;
       margin: 10px;
   }
+
+  #email {
+    word-break: break-all;
+  }
+
+  #beerConc {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+  }
+
+  #beerConcBody {
+    margin: 10px;
+    padding: 20px;
+    }
+
+    #passGen {
+      height: 100%;
+      width: 100%;
+      padding: 15px;
+    }
+    
+    #passGenBody {
+      margin: 10px;
+      padding: 20px;
+    }
+
+    #firstCard {
+      margin: 15px;
+      left: 15px;
+    }
+    
+    #secondCard {
+      margin: 15px;
+      left: 30px;
+    }
 }
