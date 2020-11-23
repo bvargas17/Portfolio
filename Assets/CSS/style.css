@@ -20,10 +20,42 @@ h1 {
   margin-top: 40px;
 }
 
-img {
+#brianPic {
   background-color: #b1a296;
   height: 500px;
   width: auto;
+}
+
+#beerConc {
+  height: 250px;
+  width: 450px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+#beerConcBody {
+margin-left: 100px;
+padding-right: 100px;
+padding-left: 50px;
+padding-top: 20px;
+}
+
+#secondCard {
+  left: 12px;
+}
+
+#passGen {
+  height: 325px;
+  width: 450px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+#passGenBody {
+  margin-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-left: 50px;
 }
 
 #main {
